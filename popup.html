@@ -1,0 +1,29 @@
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+     <title>Popup</title>
+ </head> 
+ <body>
+    <button id="btnPopup" class="btnPopup">Afficher une fenetre modale</button> 
+    <div id="overlay" class="overlay">
+        <div id="popup" class="popup">
+         <h2> Je suis le popup , comment vas-tu?
+             <span id="btnClose" class="btnClose">&times;</span>
+         </h2>
+        voici le guide pour faire une fenetre modale:
+         <br>
+         var btnPopup  = document.getElementById('btnPopup');
+var overlay   = document.getElementById('overlay');
+var btnClose = document.getElementById('btnClose');
+
+btnPopup.addEventListener('click',openModal);
+btnClose.addEventListener('click',ClosePopup);
+function openModal(){
+    overlay.style.display = 'flex';
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+ </body> 
+</html>

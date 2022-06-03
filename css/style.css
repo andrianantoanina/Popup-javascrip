@@ -1,0 +1,38 @@
+.btnPopup {
+background-color: #f751bd;
+padding: 1em 2em;
+font-size: 14pt;
+color: aliceblue;
+border-radius: 10px;
+cursor: pointer;
+}
+.btnPopup:hover {
+    background-color: #c8509e;
+
+}
+.overlay{
+    position: fixed;
+    top:0px;
+    left:0px;
+    background-color:rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    display:none;/**  disparaitre **/
+}
+.popup{
+    margin: 20% auto;
+    background-color: aliceblue;
+    width:70%;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow:3px 0 rgba(0,0,0,0.5) ;
+}
+.btnClose{
+    float: right;
+    cursor: pointer;
+}
+.btnClose:hover{
+    color: crimson;
+    cursor: pointer;
+
+}
