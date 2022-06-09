@@ -8,7 +8,6 @@ cursor: pointer;
 }
 .btnPopup:hover {
     background-color: #c8509e;
-
 }
 .overlay{
     position: fixed;
@@ -31,6 +30,7 @@ cursor: pointer;
     float: right;
     cursor: pointer;
 }
+/** mettre un hover **/
 .btnClose:hover{
     color: crimson;
     cursor: pointer;
